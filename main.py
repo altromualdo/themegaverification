@@ -1,6 +1,7 @@
 from config import Config
 import discord
 from discord.ext import commands
+from keep_alive import keep_alive
 
 prefix = Config.prefix
 token = Config.bot_token
